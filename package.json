@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "hexo-theme-redefine": "^0.4.6"
+    "hexo-theme-redefine": "^0.4.6",
+    "hexo": "^3.8.0"
   }
 }
