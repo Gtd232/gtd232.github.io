@@ -32,6 +32,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # 哎呀呀 这里不小心拼错了，应该是“build”而不是“bulid”
-          token: ${{ secrets.BULID_AND_DEPLOY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
