@@ -26,7 +26,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Copy
-        run: mkdir -p ./thmems && cp ./node_modules/hexo-theme-redefine ./themes/hexo-theme-redefine
+        run: mkdir -p ./thmems && cp -r ./node_modules/hexo-theme-redefine ./themes/hexo-theme-redefine
       - name: Build
         run: npm run build
       - name: Deploy
