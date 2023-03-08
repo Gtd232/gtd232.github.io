@@ -32,5 +32,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          token: ${{ secrets.BUILD_AND_DEPLOY }}
+          # 哎呀呀 这里不小心拼错了，应该是“build”而不是“bulid”
+          token: ${{ secrets.BULID_AND_DEPLOY }}
           publish_dir: ./public
