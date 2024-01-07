@@ -1,6 +1,6 @@
 ---
 title: 安装雷池（Safeline）在 Alpine Linux
-date: 2021-01-07 18:00:00
+date: 2024-01-07 18:00:00
 categories:
   - Category 1
 tags:
