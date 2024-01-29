@@ -1,6 +1,6 @@
 ---
 title: 使用Cloudflare Wrangler部署调试Cloudflare Workers
-date: 2024-01-07 18:00:00
+date: 2024-01-29 18:00:00
 categories:
   - Category 1
 tags:
